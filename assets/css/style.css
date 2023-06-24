@@ -1,13 +1,14 @@
+/* Universal Element Function*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body Element Text color*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Header Font/Text Settings and it's children*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +41,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Anchor settings */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* paragraph settings */
 p {
     font-size: 16px;
 }
-
+/* Picture directly under nav parameters */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* alignment settings for images in the article element */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,38 +69,11 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Text setting for the article element and it's children that includes the content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
@@ -156,6 +130,35 @@ p {
     font-size: 36px;
 }
 
+/* Text settings for the aside element */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Text settings for the section element and its children that include the benefit class */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Font settings for the footer */
 footer {
     padding: 30px;
     clear: both;
